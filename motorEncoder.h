@@ -20,7 +20,7 @@ class MotorEncoder{
 		void Update();	
 		bool isPositiveRotation;
 		void addTicks(int tick);
-    Encoder encoder;
+    		Encoder encoder;
 
 	private:
 		int targetTick;
